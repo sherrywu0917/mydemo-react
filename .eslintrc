@@ -1,0 +1,25 @@
+{
+    'extends': 'airbnb',
+    'env': {
+        'browser': true,
+        'node': true
+    },
+    'rules': {
+        'brace-style': ['error', 'stroustrup', { 'allowSingleLine': true }],
+        'comma-dangle': 'off',
+        'object-curly-spacing' : 'off',
+        'semi': 'off',
+        'indent': ['error', 4 ],
+        'react/jsx-indent': ['error', 4],
+        'react/jsx-one-expression-per-line': 'off',
+        'import': 'off',
+        'radix': ['error', 'as-needed']
+    },
+    'settings': {
+        'import/resolver': {
+            'webpack': {
+                'config': './config/base.js'
+            }
+        }
+    }
+}

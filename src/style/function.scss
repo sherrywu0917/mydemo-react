@@ -1,0 +1,114 @@
+@mixin btn-base($w: 94px, $h: 28px, $fs: 14px) {
+    display: inline-block;
+    width: $w;
+    height: $h;
+    line-height: $h;
+    border-radius: 6px;
+    font-size: $fs;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@mixin img-100($w, $h, $imgUrl) {
+    width: $w;
+    height: $h;
+    background: url($imgUrl) center center no-repeat;
+    background-size: 100%;
+}
+
+@mixin line-ellipsis($num: 1, $lineH: 1.5) {
+    @if $num>1 {
+        display: -webkit-box;
+        /* autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        -webkit-line-clamp: $num;
+        text-overflow: ellipsis;
+        line-height: $lineH;
+        max-height: $lineH * $num;
+        overflow: hidden;
+    }
+    @else {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: $lineH;
+        overflow: hidden;
+    }
+}
+
+@mixin placeholder($color) {
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder {
+        color: $color;
+    }
+    &::placeholder {
+        color: $color;
+    }
+}
+
+@function rem($px, $base-font-size: 75px) {
+    @if (unitless($px)) {
+        @return rem($px + 0px);
+    }
+    @else if (unit($px)==rem) {
+        @return $px;
+    }
+    @return ($px / $base-font-size) * 1rem;
+}
+
+// z-index统一管理
+// ---
+// @param [string] $component: the layer to use
+// ---
+// @return [number] | [null]
+@function z($layer) {
+    $z-layers: ( 'toast': 4000, 'modal': 3000, 'dropdown': 2000, 'mask': 1000, 'fixed-layer': 500, 'profile': 101, 'default': 1, 'below': -1, 'bottomless-pit': -10000);
+    @if not map-has-key($z-layers, $layer) {
+        @warn "No z-index found in $z-layers map for `#{$layer}`. Property omitted.";
+    }
+    @return map-get($z-layers, $layer);
+}
+
+//字体dpr适配
+@mixin font-dpr($font-size) {
+    font-size: $font-size;
+    [data-dpr="2"] & {
+        font-size: $font-size * 2;
+    }
+    [data-dpr="3"] & {
+        font-size: $font-size * 3;
+    }
+}
+
+
+/**
+ * css实现的空心箭头>，指向右边
+ * @param  {[type]} $bgColor     [description]
+ * @param  {[type]} $borderColor [description]
+ * @param  {[type]} $borderW:    10px          [description]
+ * @param  {[type]} $arrowW:     2             [description]
+ * @return {[type]}              [description]
+ */
+
+@mixin arrow-right($bgColor, $borderColor, $borderW: 10px, $arrowW: 2) {
+    &:after,
+    &:before {
+        border: rem($borderW) solid transparent;
+        border-left: rem($borderW) solid $bgColor;
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        right: rem(-$borderW*2);
+        content: ' '
+    }
+    &:before {
+        border-left-color: $borderColor;
+        right: rem(-$borderW*2 - $arrowW);
+    }
+}

@@ -1,0 +1,32 @@
+.classpath
+.project
+.settings
+target
+out
+logs
+*.log
+*.swp
+node_modules
+.idea
+
+*.sublime-project
+*.sublime-workspace
+/.externalToolBuilders/
+
+# Local dev ftl file
+/src/main/webapp/WEB-INF/template/test.ftl
+
+# *.bat
+*.iml
+
+.DS_Store
+
+# nei
+/src/main/webapp/mock/
+
+/log.dir*
+
+# ignore nei
+/nei.*
+/build/
+/bin/

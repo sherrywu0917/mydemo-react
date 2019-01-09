@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [ "always-multi-line", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"],
+    } ],
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "deg", "ms"],
+    "selector-max-compound-selectors": 4,
+    "indentation": 4
+  }
+}

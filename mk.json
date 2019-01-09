@@ -1,0 +1,23 @@
+{
+    "fileList" : [
+        {"dir": "src/entry", "suffix": "jsx", "tpl": "mkTpl/entry.tpl"},
+        {"dir": "src/component", "suffix": "App.jsx", "tpl": "mkTpl/app.tpl"},
+        {"dir": "src/style", "suffix": "App.scss", "tpl": "mkTpl/style.tpl"}
+    ],
+    "activityList" : [
+        {"dir": "src/entry/activity", "suffix": "jsx", "tpl": "mkTpl/activityEntry.tpl"},
+        {"dir": "src/component/activityApp", "suffix": "App.jsx", "tpl": "mkTpl/activityApp.tpl"},
+        {"dir": "src/style/activity", "suffix": "App.scss", "tpl": "mkTpl/style.tpl"}
+    ],
+    "fakeList" : [
+        {"dir": "src/entry/fake", "suffix": "jsx", "tpl": "mkTpl/fakeEntry.tpl"},
+        {"dir": "src/component/fakeApp", "suffix": "App.jsx", "tpl": "mkTpl/fakeApp.tpl"},
+        {"dir": "src/style/fake", "suffix": "App.scss", "tpl": "mkTpl/style.tpl"}
+    ],
+    "resultList" : [
+        {"dir": "src/entry/result", "suffix": "jsx", "tpl": "mkTpl/resultEntry.tpl"},
+        {"dir": "src/component/resultApp", "suffix": "App.jsx", "tpl": "mkTpl/resultApp.tpl"},
+        {"dir": "src/style/result", "suffix": "App.scss", "tpl": "mkTpl/style.tpl"}
+    ]
+
+}

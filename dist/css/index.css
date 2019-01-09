@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * css实现的空心箭头>，指向右边
+ * @param  {[type]} $bgColor     [description]
+ * @param  {[type]} $borderColor [description]
+ * @param  {[type]} $borderW:    10px          [description]
+ * @param  {[type]} $arrowW:     2             [description]
+ * @return {[type]}              [description]
+ */
+@charset "UTF-8";
+/**
+ * css实现的空心箭头>，指向右边
+ * @param  {[type]} $bgColor     [description]
+ * @param  {[type]} $borderColor [description]
+ * @param  {[type]} $borderW:    10px          [description]
+ * @param  {[type]} $arrowW:     2             [description]
+ * @return {[type]}              [description]
+ */
+/*================
+    reset css
+=================*/
+/* 重置&默认(reset&base)(tags) */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: medium none; }
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+li {
+  list-style: none outside none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ""; }
+
+abbr, acronym {
+  border: medium none;
+  font-variant: normal; }
+
+i {
+  font-style: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: medium none; }
+
+del, ins {
+  text-decoration: line-through; }
+
+small {
+  font-size: 100%; }
+
+body:first-of-type {
+  position: relative; }
+
+html {
+  overflow-y: scroll; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5 "Arial","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif; }
+
+table {
+  font-size: inherit; }
+
+body, legend {
+  color: #333333; }
+
+del {
+  text-decoration: line-through; }
+
+a, button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+  -webkit-tap-highlight-color: #e8e8e8; }
+
+body {
+  background-color: #fff; }
+
+a:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; }
+
+input, textarea {
+  -webkit-appearance: none; }
+
+.f-cb {
+  zoom: 1; }
+  .f-cb:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden; }
+
+.f-fr {
+  float: right; }
+
+.f-fl {
+  float: left; }
+
+.g-wrap {
+  font-size: 0.32rem; }
+
+.m-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4); }

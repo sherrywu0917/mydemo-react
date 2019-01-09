@@ -1,0 +1,177 @@
+{
+  "books/queryHotsell": {
+    "data": {
+      "books": [
+        {
+          "bookStatus": 0,
+          "author": "钓人的鱼",
+          "category": "官场职场",
+          "title": "官梯",
+          "cmReadBook": false,
+          "description": "<p>为官者，踏出一步，就是一个脚印，对了，那是份内之事，错了，前面就是万丈深渊；</p><p>本书的姊妹篇，也可以说是《官梯》的续集，《村长的妖孽人生》正在网易云阅读火热连载，《官梯》里没有交代的事这里都会交代清楚，敬请观赏。http://yuedu.163.com/source/1b7140a1bb4e4ec3bcbb08e5e0093cee_4</p><p>另有完本作品《国色天香》也在网易云阅读。</p>",
+          "readCount": "72.9万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/-D594xFp3BxhRR3BZ8nb7g==/8796093022217220656",
+          "payType": 1,
+          "sourceUrl": "/source/36014008530e412d9ed7608960eba4df_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        },
+        {
+          "bookStatus": 1,
+          "author": "忆秋",
+          "category": "官场职场",
+          "title": "青云记",
+          "cmReadBook": false,
+          "description": "<p>草根出身的黄海川是一名苦逼的小公务员员，女友是江城副市长千金，来自普通家庭的黄海川被女友的父母棒打鸳鸯，四年大学恋情告吹，黄海川为挽救这段恋情，受尽白眼，被女友父母无情嘲笑，最终女友冷漠变心，嫁给了门当户对的干部家庭。</p><p>谁说草鸡不能变凤凰？一次同学聚会，一次偶然的邂逅，且看黄海川如何上演一段草根传奇，人生发生了华丽的逆袭，在官场左右逢源，步步高升，昔日恋人再见，谁能笑到最后？黄海川誓将草根逆袭进行到底！</p>",
+          "readCount": "16.5万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/KWikbFU-BPBWwTOV0NBVUQ==/3948812448374688639",
+          "payType": 1,
+          "sourceUrl": "/source/6e8887b6707c43aba69b73ac57f47924_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        },
+        {
+          "bookStatus": 1,
+          "author": "我自对天笑",
+          "category": "官场职场",
+          "title": "超级特卫传奇",
+          "cmReadBook": false,
+          "description": "<p>特种兵王陈凌在得知与妹妹相依为命的爷爷去世后，他毅然退役，选择回到东江照顾妹妹。都市繁华里，他超然的风采，惹得精英女白领，小萝莉，美丽御姐均对他芳心暗许。面对权力的诱惑，陈凌坚守心中的忠义，而当有一天，他被忠义所害····从此，抛掉压抑的良心，露出狰狞的本性。加入绝色尘姐的杀手组织，用最快的刀，杀最狠的人。纵横国内，驰骋国际大舞台，拉起一曲轰轰烈烈的…</p>",
+          "readCount": "10.3万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/OrF0YQjkCIDlcgVC8DDBXA==/7917103844545927225",
+          "payType": 1,
+          "sourceUrl": "/source/886265a4fde5474eba060a2073f226fe_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        }
+      ]
+    }
+  },
+"books/queryNew": {
+    "data": {
+      "books": [
+        {
+          "bookStatus": 0,
+          "author": "血徒",
+          "category": "都市生活",
+          "title": "医武兵王",
+          "cmReadBook": false,
+          "description": "兵王会医术，谁也挡不住！\r\n被开除出部队的兵王陆轩，回归都市。\r\n\r\n机缘巧合之下和美丽总裁签下一纸婚约，从而与美女总裁发展着一系列错综复杂的爱恨情仇。\r\n\r\n美女总裁、暴力警花、美丽校花、初恋女友、大明星，各式各样的美女钻进陆轩的生活里，让想过平静生活的陆轩，也平静不下来\r\nQQ群：71025775，微信公众号：血徒",
+          "readCount": "14.5万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/2luKMDJy1RILMzDPDXn5YQ==/8796093022886214925?param=200x0&type=1.jpg",
+          "payType": 1,
+          "sourceUrl": "/source/bd_e666f73ae6c646af92a3e004955d72f7_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        },
+        {
+          "bookStatus": 0,
+          "author": "我自对天笑",
+          "category": "都市生活",
+          "title": "绝世高手",
+          "cmReadBook": false,
+          "description": "<p>雇佣兵王陈扬回归都市，只为保护战友的女神妹妹。繁华都市里，陈扬如鱼得水，逍遥自在。且看一代兵王如何用铁拳和智慧打下一片商业帝国……欲了解四帝更多故事，请微信公众号搜索天道盟。</p>",
+          "readCount": "18.9万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/V_nv7W6Qf-UTL40642dlGA==/8796093022262715633",
+          "payType": 1,
+          "sourceUrl": "/source/9cc63831542a4bd5aca2c6e4ca7bd05b_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        },
+        {
+          "bookStatus": 0,
+          "author": "司徒浪子",
+          "category": "官场职场",
+          "title": "妇科男医生官场笔记",
+          "cmReadBook": false,
+          "description": "<p>一位妇科男医生，在结识了一位女性官员后竟然成为官场灼手可热的人物。在江南省，他有着组织部长一样的权力。但，他仅仅是一名医生，一位妇产科方面的专家。</p><p>本书揭秘的是女性、特别是女性官员的生存状态。</p>",
+          "readCount": "5.8万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/WokgsQSlDEUAhMflu9zHFQ==/8796093023342034066",
+          "payType": 1,
+          "sourceUrl": "/source/207a9d5f85e7488e898e758203c0c247_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        }
+      ]
+    }
+  },
+"books/queryRecommend": {
+    "data": {
+      "books": [
+        {
+          "bookStatus": 1,
+          "author": "我自对天笑",
+          "category": "官场职场",
+          "title": "超级特卫传奇",
+          "cmReadBook": false,
+          "description": "<p>特种兵王陈凌在得知与妹妹相依为命的爷爷去世后，他毅然退役，选择回到东江照顾妹妹。都市繁华里，他超然的风采，惹得精英女白领，小萝莉，美丽御姐均对他芳心暗许。面对权力的诱惑，陈凌坚守心中的忠义，而当有一天，他被忠义所害····从此，抛掉压抑的良心，露出狰狞的本性。加入绝色尘姐的杀手组织，用最快的刀，杀最狠的人。纵横国内，驰骋国际大舞台，拉起一曲轰轰烈烈的…</p>",
+          "readCount": "10.3万",
+          "iconUrl": "https://easyreadfs.nosdn.127.net/OrF0YQjkCIDlcgVC8DDBXA==/7917103844545927225",
+          "payType": 1,
+          "sourceUrl": "/source/886265a4fde5474eba060a2073f226fe_4",
+          "createBy": 1,
+          "free4LimitedTime": false
+        }
+      ]
+    }
+  },
+  "book.json":{
+    "msg": "成功",
+    "code": 200,
+    "book": {
+      "description": "她是妖娆女特工，她是绝世灰姑娘。一次意外，让她们合二为一。她成为最妖娆的灰姑娘，陪伴着一个最冷酷的男人。她为他守护，他为她构筑爱巢。她以为这是属于她的童话。但，一场灭门，一场恩怨，因为她的重生而风云再起。<br /> 当他的旧爱回归，她心碎离去。殊不知这仅仅是悲剧的开始……<br /> <br /> ",
+      "title": "重生之妖娆灰姑娘",
+      "author": "飘若梦",
+      "category": "灵异恐怖",
+      "cover": "https://easyreadfs.nosdn.127.net/trz_K2NGu7MB4NJOPAy2WQ==/8796093022964047399?param=200x0&type=1.jpg",
+      "catalogs": [
+        {
+          "title": "第001章荒岛重生",
+          "id": "cd5872bdef7d45268d64b7e06bdfa92c_4",
+          "md5": "f3d7c177de458eb0a8df567efb81968c",
+          "level": 1
+        },
+        {
+          "title": "第002章荒岛重生荒岛重生荒岛重生荒岛重生荒岛重生荒岛重生荒岛重生",
+          "id": "cd5872bdef7d45268d64b7e06bdfa92c_4",
+          "md5": "f3d7c177de458eb0a8df567efb81968c",
+          "level": 1
+        },
+        {
+          "title": "第001章荒岛重生",
+          "id": "cd5872bdef7d45268d64b7e06bdfa92c_4",
+          "md5": "f3d7c177de458eb0a8df567efb81968c",
+          "level": 1
+        },
+        {
+          "title": "第001章荒岛重生",
+          "id": "cd5872bdef7d45268d64b7e06bdfa92c_4",
+          "md5": "f3d7c177de458eb0a8df567efb81968c",
+          "level": 1
+        },
+        {
+          "title": "第001章荒岛重生",
+          "id": "cd5872bdef7d45268d64b7e06bdfa92c_4",
+          "md5": "f3d7c177de458eb0a8df567efb81968c",
+          "level": 1
+        }
+      ],
+      "lastArticle": {
+        "title": "第169章：你想躲到什么时候",
+        "sourceUuid": "ts_3d08f03ac7ce4b5e85e9efb1b23ec859_4",
+        "articleUuid": "fcaaa1679ef54c14ba34199867c67b2f_4",
+        "encryptPass": "5ef50baa4164",
+        "contentId": "8796093022977662471",
+        "encryptId": "8796093022977663380",
+        "price": 10,
+        "needPay": 1,
+        "type": 21063
+      },
+      "serial": true,
+      "sourceUuid": "ts_3d08f03ac7ce4b5e85e9efb1b23ec859_4",
+      "clickCount": "2376"
+    }
+  },
+  "recharge/list.json":{"msg":"成功","code":200,"data":{"site":"西可测试账号","vipExpireTime":-1,"vmBalance":0,"hongbaoBalance":100,"defaultRechargeType":"WX_NATIVE","rechargeProductMap":{"wx":[{"price":29,"vm":2900,"hongbao":0,"hongbaoType":0,"select":false,"iconUrl":"","configId":2001,"productType":0,"productAmount":0},{"price":49,"vm":4900,"hongbao":3100,"hongbaoType":0,"select":false,"iconUrl":"","configId":1004,"productType":0,"productAmount":4900},{"price":99,"vm":9900,"hongbao":10100,"hongbaoType":0,"select":false,"iconUrl":"https://easyreadfs.nosdn.127.net/nfb.91081b79cc394c13b47e76e773f3c7f5.png","configId":4008,"productType":0,"productAmount":9900},{"price":199,"vm":19900,"hongbao":0,"hongbaoType":0,"select":false,"iconUrl":"","configId":4007,"productType":0,"productAmount":0},{"price":299,"vm":29900,"hongbao":0,"hongbaoType":0,"select":false,"iconUrl":"","configId":4005,"productType":0,"productAmount":29900},{"price":365,"vm":36500,"hongbao":0,"hongbaoType":0,"select":false,"iconUrl":"https://easyreadfs.nosdn.127.net/nfb.03e5d3dd714b4b268bcf809fc5f7ab6b.png","configId":4004,"productType":1,"productAmount":12}]}}}
+
+}

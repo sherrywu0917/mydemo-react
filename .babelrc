@@ -1,0 +1,20 @@
+{
+  	"presets": [
+        ["es2015", {"modules": false}],
+  		"react",
+  	 	"stage-2"
+  	],
+  	"plugins": [
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        ["transform-runtime", {
+            "helper": false,
+            "polyfill": true,
+            "regenerator": true,
+            "moduleName": "babel-runtime"
+        }]
+        // ["import", {
+        //     "libraryName": "common-modules"
+        // }]
+    ]
+}

@@ -1,20 +1,25 @@
 {
-  	"presets": [
-        ["es2015", {"modules": false}],
-  		"react",
-  	 	"stage-2"
-  	],
-  	"plugins": [
-        "transform-decorators-legacy",
-        "transform-class-properties",
-        ["transform-runtime", {
-            "helper": false,
-            "polyfill": true,
-            "regenerator": true,
-            "moduleName": "babel-runtime"
-        }]
-        // ["import", {
-        //     "libraryName": "common-modules"
-        // }]
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": [
+                        "> 1%",
+                        "last 2 versions",
+                        "safari >= 7"
+                    ]
+                },
+                "useBuiltIns": "usage",
+                "debug": true
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-object-rest-spread"
     ]
 }

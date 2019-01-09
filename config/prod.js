@@ -30,7 +30,7 @@ module.exports = webpackMerge(baseConfig, {
     },
     plugins: [
         new CleanWebpackPlugin(['dist/js', 'dist/css', 'dist/image'], {
-            root: path.resolve(ROOT_PATH, '..'),
+            root: ROOT_PATH,
             verbose: true,
             dry: false,
             //exclude: ['shared.js']

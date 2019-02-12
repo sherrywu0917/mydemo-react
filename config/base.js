@@ -3,6 +3,7 @@ const fs = require('fs');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin'); //css单独打包
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const px2rem = require('postcss-px2rem');
 const util = require('./util.js');
 
 const isProduction = util.isProduction;
@@ -46,27 +47,6 @@ var rules = [{
     include: APP_PATH,
     use: isProduction ? ['babel-loader'] : ['babel-loader', 'eslint-loader']
 }, {
-    test: /\.css$/,
-    include: APP_PATH,
-    use: ExtractTextPlugin.extract({
-        fallback: 'style',
-        use: [{ loader: 'css', options: { minimize: isProduction } }, { loader: 'autoprefixer' }]
-    })
-}, {
-    //     test: /\.css$/,
-    //     include: path.resolve(ROOT_PATH, 'node_modules/common-modules'),
-    //     use: ExtractTextPlugin.extract({
-    //         fallback: 'style',
-    //         use: [{
-    //             loader: 'css',
-    //             options: {
-    //                 modules: true,
-    //                 camelCase: true,
-    //                 minimize: isProduction,
-    //                 localIdentName: '[path][name]__[local]--[hash:base64:5]'
-    //             }}]
-    //     })
-    // }, {
     test: /\.s?css$/,
     //include: APP_PATH,
     use: ExtractTextPlugin.extract({
@@ -77,7 +57,8 @@ var rules = [{
                 options: {
                     plugins: function() {
                         return [
-                            require('autoprefixer')
+                            require('autoprefixer'),
+                            px2rem({remUnit: 75})
                         ];
                     }
                 }

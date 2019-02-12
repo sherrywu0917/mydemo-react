@@ -31,6 +31,7 @@
     "nw-share": "^1.17.11",
     "nw-toast": "^1.17.0",
     "nw-toolkits": "^1.14.13",
+    "postcss-px2rem": "^0.3.0",
     "react": "^15.5.4",
     "react-dom": "^15.3.2"
   },

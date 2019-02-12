@@ -11,8 +11,8 @@ module.exports = webpackMerge(baseConfig, {
     // devtool: 'source-map',
     plugins: [
         new webpack.NamedModulesPlugin(),
-        new ExtractTextPlugin({filename: 'css/[name].css', allChunks: true }),
-        new webpack.optimize.CommonsChunkPlugin({name: "common", filename: "js/common.bundle.js"})
+        // new ExtractTextPlugin({filename: 'css/[name].css', allChunks: true }),
+        // new webpack.optimize.CommonsChunkPlugin({name: "common", filename: "js/common.bundle.js"})
         // new BundleAnalyzerPlugin()
     ]
 });
